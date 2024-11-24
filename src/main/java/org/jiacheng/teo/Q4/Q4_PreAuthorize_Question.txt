@@ -1,0 +1,5 @@
+Question 4:
+If you use the same @PreAuthorize configuration on each method in a class, how can you make the annotations cleaner?
+
+Answer:
+I can use the @PreAuthorize annotation on the class level instead of the method level. This way, the same security configuration is applied to all methods in the class.
